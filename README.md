@@ -106,4 +106,4 @@ bash
 Copy code
 pip install numpy matplotlib sympy scipy
 Run the script in your preferred Python environment.
-
+Thanks!
