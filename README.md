@@ -1,39 +1,23 @@
-<<<<<<< HEAD
-=======
-```markdown
->>>>>>> 9e38ee268686e8ea59ac0e070f4637220272bdd1
-# Dynamic Derivative Calculator and Function Visualization
+ `README.md` 
 
-## Overview
+```markdown
+  Dynamic Derivative Calculator and Function Visualization
+
+  Overview
 This project implements a dynamic function for calculating the derivative of any given mathematical function with respect to a variable \( x \). It includes functionalities for testing the derivative with specific equations that have multiple minima and maxima, visualizing the function, identifying critical points, and computing global minima and maxima. The project also provides a graphical representation of the area under the curve.
 
-## Features
-- **Dynamic Derivative Calculation:** A Python function that computes the derivative of any input function \( f(x) \).
-- **Equation Testing:** Define an equation with at least two minima and two maxima to verify the correctness of the derivative function.
-- **Graph Visualization:** Utilize Matplotlib to visualize the defined function along with its critical points.
-- **Critical Points Identification:** Store and display arrays containing the \( x \)-values of local minima and maxima.
-- **Global Minima and Maxima Calculation:** Determine and print the coordinates of the overall minimum and maximum values of the function.
-- **Area Under Curve Calculation:** Visualize the area under the curve for a better understanding of the function's behavior.
+   Features
+- Dynamic Derivative Calculation:** A Python function that computes the derivative of any input function \( f(x) \).
+- Equation Testing:** Define an equation with at least two minima and two maxima to verify the correctness of the derivative function.
+- Graph Visualization:** Utilize Matplotlib to visualize the defined function along with its critical points.
+- Critical Points Identification:** Store and display arrays containing the \( x \)-values of local minima and maxima.
+- Global Minima and Maxima Calculation:** Determine and print the coordinates of the overall minimum and maximum values of the function.
+- Area Under Curve Calculation:** Visualize the area under the curve for a better understanding of the function's behavior.
 
 ## How to Use
 
-<<<<<<< HEAD
 ### Task 1: Define and Classify Critical Points
 The derivative function is tested with an equation that has at least two minima and two maxima.
-=======
-    # Convert the input function string into a sympy expression
-    f_x = sp.sympify(function)
-
-    # Compute the derivative of the function f(x) with respect to x
-    derivative = sp.diff(f_x, x)
-
-    # Return the derivative
-    return derivative
-```
-
-### Task 2: Test the Derivative Function
-The derivative function is tested with an equation with at least two minima and two maxima.
->>>>>>> 9e38ee268686e8ea59ac0e070f4637220272bdd1
 
 ```python
 import sympy as sp
@@ -60,11 +44,12 @@ function_string = "x**5 - 10*x**4 + 35*x**3 - 50*x**2 + 24*x"
 # Call the function to classify critical points.
 min_points, max_points, first_derivative = classify_critical_points(function_string)
 print("First Derivative:", first_derivative)
-Task 2: Plot the Function
+```
+
+### Task 2: Plot the Function
 A plot of the function is generated, marking the identified minima and maxima.
 
-python
-Copy code
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import sympy as sp
@@ -78,20 +63,22 @@ y_values = f_func(x_values)
 plt.figure(figsize=(8, 6))
 plt.plot(x_values, y_values, label="f(x)")
 # Mark minima and maxima points
-Task 3: Create Arrays of Minima and Maxima
+```
+
+### Task 3: Create Arrays of Minima and Maxima
 Arrays are created to store the calculated minima and maxima.
 
-python
-Copy code
+```python 
 # Find the minima and maxima points
 arr_minimas, arr_maximas = classify_critical_points(function_string)
 print(f'The array of minimas is {arr_minimas}')
 print(f'The array of maximas is {arr_maximas}')
-Task 4: Area Under the Curve
+```
+
+### Task 4: Area Under the Curve
 Calculating the area under the curve between local extrema using numerical integration.
 
-python
-Copy code
+```python
 from scipy.integrate import quad
 
 # Define the function to analyze
@@ -105,24 +92,31 @@ area3, _ = quad(f, local_max_2, local_min_2)  # Area between second max and seco
 
 # Print the absolute areas calculated
 print(f"Total area under the curve: {total_area:.4f}")
-Final Plot
+```
+
+### Final Plot
 The final plot visualizes the function along with the global minima and maxima.
 
-python
-Copy code
+```python
 plt.figure(figsize=(12, 8))
 plt.plot(x_values, y_values, label='f(x)', color='blue')
 # Plot global minima and maxima
-Results
-Global Minima: (3.64, -3.63)
-Global Maxima: (0.36, 3.63)
-Requirements
-Python 3.x
-Libraries: numpy, matplotlib, sympy, scipy
-How to Run
-Install the required libraries using pip:
-bash
-Copy code
-pip install numpy matplotlib sympy scipy
-Run the script in your preferred Python environment.
-Thanks!
+```
+
+## Results
+- **Global Minima:** (3.64, -3.63)
+- **Global Maxima:** (0.36, 3.63)
+
+## Requirements
+- Python 3.x
+- Libraries: `numpy`, `matplotlib`, `sympy`, `scipy`
+
+## How to Run
+1. Install the required libraries using pip:
+   ```bash
+   pip install numpy matplotlib sympy scipy
+   ```
+2. Run the script in your preferred Python environment.
+```
+
+Feel free to modify any section as needed!
