@@ -1,5 +1,3 @@
-
-
 ```markdown
 # Dynamic Derivative Calculator and Function Visualization
 
@@ -29,7 +27,7 @@ def dy_dx(function):
 ```
 
 ### Task 2: Test the Derivative Function
-The derivative function is tested with an equation that has at least two minima and two maxima.
+The derivative function is tested with an equation with at least two minima and two maxima.
 
 ```python
 import sympy as sp
