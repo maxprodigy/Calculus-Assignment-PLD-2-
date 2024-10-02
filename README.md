@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  `README.md` 
 
 ```markdown
@@ -7,16 +8,35 @@
 This project implements a dynamic function for calculating the derivative of any given mathematical function with respect to a variable \( x \). It includes functionalities for testing the derivative with specific equations that have multiple minima and maxima, visualizing the function, identifying critical points, and computing global minima and maxima. The project also provides a graphical representation of the area under the curve.
 
    Features
+=======
+
+```markdown
+
+ Dynamic Derivative Calculator and Function Visualization
+
+ Overview
+This project implements a dynamic function for calculating the derivative of any given mathematical function with respect to a variable \( x \). It includes functionalities for testing the derivative with specific equations that have multiple minima and maxima, visualizing the function, identifying critical points, and computing global minima and maxima. The project also provides a graphical representation of the area under the curve.
+
+Features
+>>>>>>> 54b58838072e6bab490bdb1f85198b9a34c8ffca
 - Dynamic Derivative Calculation:** A Python function that computes the derivative of any input function \( f(x) \).
 - Equation Testing:** Define an equation with at least two minima and two maxima to verify the correctness of the derivative function.
 - Graph Visualization:** Utilize Matplotlib to visualize the defined function along with its critical points.
 - Critical Points Identification:** Store and display arrays containing the \( x \)-values of local minima and maxima.
 - Global Minima and Maxima Calculation:** Determine and print the coordinates of the overall minimum and maximum values of the function.
 - Area Under Curve Calculation:** Visualize the area under the curve for a better understanding of the function's behavior.
+<<<<<<< HEAD
+=======
 
-## How to Use
+ How to Use
+>>>>>>> 54b58838072e6bab490bdb1f85198b9a34c8ffca
 
+
+<<<<<<< HEAD
 ### Task 1: Define and Classify Critical Points
+=======
+ Task 1: Define and Classify Critical Points
+>>>>>>> 54b58838072e6bab490bdb1f85198b9a34c8ffca
 The derivative function is tested with an equation that has at least two minima and two maxima.
 
 ```python
