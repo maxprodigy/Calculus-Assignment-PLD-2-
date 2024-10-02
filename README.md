@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+```markdown
+>>>>>>> 9e38ee268686e8ea59ac0e070f4637220272bdd1
 # Dynamic Derivative Calculator and Function Visualization
 
 ## Overview
@@ -13,8 +17,23 @@ This project implements a dynamic function for calculating the derivative of any
 
 ## How to Use
 
+<<<<<<< HEAD
 ### Task 1: Define and Classify Critical Points
 The derivative function is tested with an equation that has at least two minima and two maxima.
+=======
+    # Convert the input function string into a sympy expression
+    f_x = sp.sympify(function)
+
+    # Compute the derivative of the function f(x) with respect to x
+    derivative = sp.diff(f_x, x)
+
+    # Return the derivative
+    return derivative
+```
+
+### Task 2: Test the Derivative Function
+The derivative function is tested with an equation with at least two minima and two maxima.
+>>>>>>> 9e38ee268686e8ea59ac0e070f4637220272bdd1
 
 ```python
 import sympy as sp
