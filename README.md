@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-=======
+
 ```markdown
->>>>>>> 9e38ee268686e8ea59ac0e070f4637220272bdd1
+
 # Dynamic Derivative Calculator and Function Visualization
 
 ## Overview
@@ -17,7 +16,7 @@ This project implements a dynamic function for calculating the derivative of any
 
 ## How to Use
 
-<<<<<<< HEAD
+
 ### Task 1: Define and Classify Critical Points
 The derivative function is tested with an equation that has at least two minima and two maxima.
 =======
