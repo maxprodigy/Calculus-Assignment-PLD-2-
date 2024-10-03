@@ -1,6 +1,17 @@
-  Dynamic Derivative Calculator and Function Visualization
+  
+  
+  
+  ## Dynamic Derivative Calculator and Function Visualization
 
-  Overview
+## Group Members
+
+- **Jallah Sumbo** 
+- **Dieudonne Kobobey Ngum** 
+- **Geu Aguto Garang Bior** 
+- **Mahamat Hissein Ahmat** 
+- **Peter Philip Johnson**  
+
+ ## Overview
 This project implements a dynamic function for calculating the derivative of any given mathematical function with respect to a variable \( x \). It includes functionalities for testing the derivative with specific equations that have multiple minima and maxima, visualizing the function, identifying critical points, and computing global minima and maxima. The project also provides a graphical representation of the area under the curve.
 
    Features
@@ -19,9 +30,6 @@ Features
 - Area Under Curve Calculation:** Visualize the area under the curve for a better understanding of the function's behavior.
 
  How to Use
-
-
-
 
 ### Task 1: Define and Classify Critical Points
 
@@ -130,3 +138,6 @@ plt.plot(x_values, y_values, label='f(x)', color='blue')
 ```
 
 Feel free to modify any section as needed!
+
+
+
